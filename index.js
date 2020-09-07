@@ -9,7 +9,7 @@ app.use(cors());
 var userController = require("./user.controller");
 app.use("/", userController);
 
-var port = process.env.PORT||7000;
+var port = process.env.PORT||7001;
 app.listen(port, function () {
     console.log(`server on port ${port}`)
 })
